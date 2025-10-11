@@ -44,9 +44,13 @@
             </a>
           </div>
 
-          <!-- تعديل هنا لإضافة صفحة جديدة -->
+          <!-- إضافة صفحة Home و CFX -->
           <div class="u-custom-menu u-nav-container">
             <ul class="u-custom-font u-font-arial u-nav u-unstyled u-nav-1">
+              <li class="u-nav-item">
+                <a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-2-light-1"
+                  href="Index1.html" style="padding: 10px 20px;">Home</a>
+              </li>
               <li class="u-nav-item">
                 <a class="u-button-style u-nav-link u-text-active-palette-2-base u-text-hover-palette-2-light-1"
                   href="cfx.html" style="padding: 10px 20px;">CFX</a>
@@ -60,6 +64,7 @@
                 <div class="u-menu-close"></div>
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
                   <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link" href="Index1.html" style="padding: 10px 20px;">Home</a>
                   </li>
                   <li class="u-nav-item">
                     <a class="u-button-style u-nav-link" href="cfx.html" style="padding: 10px 20px;">CFX</a>
@@ -81,13 +86,11 @@
         </p>
 
         <div class="u-clearfix u-custom-html u-custom-html-1">
-          <style></style>
           <input type="text" id="visualzCfx" placeholder="Enter cfx.re/join/...">
           <br>
           <button id="visualzBtn">SEARCH</button>
         </div>
 
-        <!-- باقي سكربت البحث والنتائج كما هو -->
         <script>
           const getBtn = document.getElementById('visualzBtn');
           const visualzApi = () => {
